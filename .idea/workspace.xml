@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12c74426-7ffe-4ee0-961c-9042ee74c8f5" name="변경" comment="save">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw07/edu/pnu/edit/Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw07/edu/pnu/edit/EditorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw07/edu/pnu/shape/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw07/edu/pnu/shape/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw07/edu/pnu/shape/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw08/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw08/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw08/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw08/ShapeManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw08/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/codingtest/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw09/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw09/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw09/MyComparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw09/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw09/SortInterfaceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw09/중간고사이후.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/InvalidRectangleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/RectangleManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -38,11 +38,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2V0E9JAgJRAXAMFfDDj6J5IdXd5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
@@ -67,12 +72,15 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hw09" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/hw06" />
       <recent name="$PROJECT_DIR$/src/main/java/hw5" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ShapeManager">
+  <component name="RunManager" selected="애플리케이션.RectangleManager">
     <configuration name="EditorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hw07.edu.pnu.edit.EditorTest" />
       <module name="java2023.main" />
@@ -86,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw02.MathMain" />
+    <configuration name="RectangleManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw10.RectangleManager" />
       <module name="java2023.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw02.*" />
+          <option name="PATTERN" value="hw10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,19 +120,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SchoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw5.SchoolTest" />
-      <module name="java2023.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hw5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ShapeManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hw08.ShapeManager" />
       <module name="java2023.main" />
@@ -138,13 +133,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortInterfaceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw09.SortInterfaceTest" />
+      <module name="java2023.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw09.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.RectangleManager" />
+        <item itemvalue="애플리케이션.SortInterfaceTest" />
         <item itemvalue="애플리케이션.ShapeManager" />
         <item itemvalue="애플리케이션.EditorTest" />
         <item itemvalue="애플리케이션.SchoolManagerTest" />
-        <item itemvalue="애플리케이션.SchoolTest" />
-        <item itemvalue="애플리케이션.MathMain" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +178,12 @@
       <workItem from="1696388051630" duration="30000" />
       <workItem from="1696662201700" duration="3635000" />
       <workItem from="1697200821825" duration="3064000" />
-      <workItem from="1697592749242" duration="4405000" />
+      <workItem from="1697592749242" duration="4446000" />
+      <workItem from="1698044793565" duration="393000" />
+      <workItem from="1698146879617" duration="1262000" />
+      <workItem from="1698802244154" duration="3839000" />
+      <workItem from="1699244459324" duration="2347000" />
+      <workItem from="1699407102305" duration="3008000" />
     </task>
     <task id="LOCAL-00001" summary="save">
       <option name="closed" value="true" />
@@ -180,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697200846280</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="save">
+      <option name="closed" value="true" />
+      <created>1697597203539</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697597203539</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
