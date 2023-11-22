@@ -8,18 +8,16 @@ public class SwingMaster {
 
 	public static void main (String[] args) {
 		JFrame test = new MyFrame();
-		test.setSize(700,700);
-
+		test.setSize(1000,100);
 		test.setVisible(true);
-
 	}
 }
 
 class MyFrame extends JFrame implements ActionListener {
-	private JPanel jPanel = new MyjPanel();
+	private final JPanel jPanel;
 
 	public MyFrame(){
-		setSize(600,600);
+		jPanel = new MyjPanel();
 		add(jPanel);
 		pack();
 	}
@@ -27,7 +25,6 @@ class MyFrame extends JFrame implements ActionListener {
 	@Override
 	public void actionPerformed (ActionEvent e) {
 		String cmd = e.getActionCommand();
-
 	}
 }
 class MyjPanel extends JPanel{
@@ -49,17 +46,18 @@ class MyjPanel extends JPanel{
 		add(btnRemoveAll);
 		add(btnQuit);
 
-		btnAdd.addActionListener((ActionEvent e)->JOptionPane.showMessageDialog(this,"Add"));
-		btnRemoveAll.addActionListener((ActionEvent e)->JOptionPane.showMessageDialog(this,"RemoveAll"));
-		btnRemoveFirst.addActionListener((ActionEvent e)->JOptionPane.showMessageDialog(this,"RemoveFirst"));
-		btnRemoveLast.addActionListener((ActionEvent e)->JOptionPane.showMessageDialog(this,"RemoveLast"));
-		btnQuit.addActionListener((ActionEvent e)->System.exit(0));
 	}
 
-	private JButton setBtn(String text){
+	private JButton setBtn(final String text){
 
 		JButton btn = new JButton(text);
-		btn.setToolTipText(text);
+		if(!text.equals("Quit")){
+			btn.addActionListener((ActionEvent e)->JOptionPane.showMessageDialog(this,text));
+		} else {
+			btn.addActionListener((ActionEvent e)->System.exit(0));
+		}
+
+		btn.setToolTipText(text+"입니당");
 
 		return btn;
 	}

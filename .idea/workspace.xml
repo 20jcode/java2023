@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12c74426-7ffe-4ee0-961c-9042ee74c8f5" name="변경" comment="save">
-      <change afterPath="$PROJECT_DIR$/src/main/java/codingtest/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw09/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw09/Line.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw09/MyComparable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw09/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw09/SortInterfaceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw09/중간고사이후.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/InvalidRectangleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw10/RectangleManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw12/Ball.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw12/BallPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw12/BallRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw12/BounceFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw12/BounceThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw12/memo.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hw11/SwingMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw11/SwingMaster.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,13 +77,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/hw5" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.RectangleManager">
-    <configuration name="EditorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw07.edu.pnu.edit.EditorTest" />
+  <component name="RunManager" selected="애플리케이션.BounceThread">
+    <configuration name="BounceThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw12.BounceThread" />
       <module name="java2023.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw07.edu.pnu.edit.*" />
+          <option name="PATTERN" value="hw12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,19 +97,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="hw10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SchoolManagerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw06.SchoolManagerTest" />
-      <module name="java2023.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hw06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,13 +130,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SwingMaster" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw11.SwingMaster" />
+      <module name="java2023.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.BounceThread" />
+        <item itemvalue="애플리케이션.SwingMaster" />
         <item itemvalue="애플리케이션.RectangleManager" />
         <item itemvalue="애플리케이션.SortInterfaceTest" />
         <item itemvalue="애플리케이션.ShapeManager" />
-        <item itemvalue="애플리케이션.EditorTest" />
-        <item itemvalue="애플리케이션.SchoolManagerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -184,6 +181,10 @@
       <workItem from="1698802244154" duration="3839000" />
       <workItem from="1699244459324" duration="2347000" />
       <workItem from="1699407102305" duration="3008000" />
+      <workItem from="1700011988787" duration="2981000" />
+      <workItem from="1700014992678" duration="272000" />
+      <workItem from="1700616793409" duration="3748000" />
+      <workItem from="1700628431728" duration="1557000" />
     </task>
     <task id="LOCAL-00001" summary="save">
       <option name="closed" value="true" />
@@ -201,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697597203539</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="save">
+      <option name="closed" value="true" />
+      <created>1700014731422</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700014731422</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
