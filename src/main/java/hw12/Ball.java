@@ -38,4 +38,9 @@ public class Ball {
 		return new Ellipse2D.Double(x, y, XSIZE, YSIZE);
 	}
 
+	public void setSpeed(final double num){
+		dx = num;
+		dy = num;
+	}
+
 }

@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12c74426-7ffe-4ee0-961c-9042ee74c8f5" name="변경" comment="save">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw12/Ball.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw12/BallPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw12/BallRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw12/BounceFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw12/BounceThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hw12/memo.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw13/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw13/RectangleMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw13/RectangleMainStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw14/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw14/MyFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hw14/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hw11/SwingMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw11/SwingMaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hw12/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw12/Ball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hw12/BounceFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hw12/BounceFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,11 +74,12 @@
       <recent name="hw09" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/hw12" />
       <recent name="$PROJECT_DIR$/src/main/java/hw06" />
       <recent name="$PROJECT_DIR$/src/main/java/hw5" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.BounceThread">
+  <component name="RunManager" selected="애플리케이션.Client">
     <configuration name="BounceThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hw12.BounceThread" />
       <module name="java2023.main" />
@@ -91,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangleManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw10.RectangleManager" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw14.Client" />
       <module name="java2023.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw10.*" />
+          <option name="PATTERN" value="hw14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapeManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw08.ShapeManager" />
+    <configuration name="RectangleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw13.RectangleMain" />
       <module name="java2023.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw08.*" />
+          <option name="PATTERN" value="hw13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortInterfaceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw09.SortInterfaceTest" />
+    <configuration name="RectangleMainStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw13.RectangleMainStream" />
       <module name="java2023.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw09.*" />
+          <option name="PATTERN" value="hw13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwingMaster" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw11.SwingMaster" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw14.Server" />
       <module name="java2023.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw11.*" />
+          <option name="PATTERN" value="hw14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Client" />
+        <item itemvalue="애플리케이션.Server" />
+        <item itemvalue="애플리케이션.RectangleMain" />
+        <item itemvalue="애플리케이션.RectangleMainStream" />
         <item itemvalue="애플리케이션.BounceThread" />
-        <item itemvalue="애플리케이션.SwingMaster" />
-        <item itemvalue="애플리케이션.RectangleManager" />
-        <item itemvalue="애플리케이션.SortInterfaceTest" />
-        <item itemvalue="애플리케이션.ShapeManager" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +186,11 @@
       <workItem from="1700011988787" duration="2981000" />
       <workItem from="1700014992678" duration="272000" />
       <workItem from="1700616793409" duration="3748000" />
-      <workItem from="1700628431728" duration="1557000" />
+      <workItem from="1700628431728" duration="1621000" />
+      <workItem from="1700697541411" duration="308000" />
+      <workItem from="1700722279036" duration="2715000" />
+      <workItem from="1701221493436" duration="1532000" />
+      <workItem from="1701937425642" duration="5894000" />
     </task>
     <task id="LOCAL-00001" summary="save">
       <option name="closed" value="true" />
@@ -210,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700014731422</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="save">
+      <option name="closed" value="true" />
+      <created>1700630590850</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700630590850</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
