@@ -23,7 +23,7 @@ public class Server {
 				Scanner in = new Scanner(inStream);
 				PrintWriter out = new PrintWriter(outStream, true );
 
-				out.println("Hello! Enter BYE to exit.");
+				out.println("서버 온");
 
 				boolean done = false;
 				while ( !done && in.hasNextLine()) {
